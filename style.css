@@ -1,36 +1,31 @@
 body {
-
     font-family: Arial, sans-serif;
     background-color: #fff0fd; 
-    color: #eacffb; 
+    color: #530653;
+
 }
-
-  .h1 {
-    text-align: center;
-    color: #240643;
+.container{
+    width: 500px;
+    margin:auto;
   }
- z .container{
-    position: relative;
-  }
-
-  form {
+form {
     margin-bottom: 1rem;
   }
 
-  input[type="text"] {
+input[type="text"] {
     width: 100%;
     padding: 0.5rem;
     font-size: 16px;
     border: none;
-    border-bottom: 2px solid #2e0755;
+    border-bottom: 2px solid #2f1b44;
     outline: none;
   }
 
-  input[type="text"]::placeholder {
+input[type="text"]::placeholder {
     color: #530653; 
   }
 
-  button[type="submit"] {
+button[type="submit"] {
     display: block;
     margin-top: 0.5rem;
     padding: 0.5rem;
@@ -42,12 +37,12 @@ body {
     cursor: pointer;
   }
 
-  ul {
+ul {
     list-style-type: none;
     padding: 0;
   }
 
-  li {
+li {
     margin-bottom: 0.5rem;
     padding: 0.5rem;
     font-size: 16px;
@@ -55,7 +50,7 @@ body {
     color: #481877; 
   }
 
-  button {
+button {
     margin-left: 0.5rem;
     background-color: #cc99ff; 
     border: none;
